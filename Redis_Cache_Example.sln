@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InMemory.Caching", "InMemory.Caching\InMemory.Caching.csproj", "{C173A110-422A-42E2-AF55-1BCA4DB269D4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Distributed.Caching", "Distributed.Caching\Distributed.Caching.csproj", "{99E08D49-2690-4F1A-9135-C0641721325C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redis.Pub.Sub.Publisher.Example", "Redis.Pub.Sub.Example\Redis.Pub.Sub.Publisher.Example.csproj", "{683DD9CA-C0FF-4CC9-AD76-4B8C641EC46C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redis.Pub.Sub.Subscriber.Example", "Redis.Pub.Sub.Subscriber.Example\Redis.Pub.Sub.Subscriber.Example.csproj", "{44B1B59E-3185-4C9C-BBC0-891F63B5A2A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{99E08D49-2690-4F1A-9135-C0641721325C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99E08D49-2690-4F1A-9135-C0641721325C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99E08D49-2690-4F1A-9135-C0641721325C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{683DD9CA-C0FF-4CC9-AD76-4B8C641EC46C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{683DD9CA-C0FF-4CC9-AD76-4B8C641EC46C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{683DD9CA-C0FF-4CC9-AD76-4B8C641EC46C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{683DD9CA-C0FF-4CC9-AD76-4B8C641EC46C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44B1B59E-3185-4C9C-BBC0-891F63B5A2A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44B1B59E-3185-4C9C-BBC0-891F63B5A2A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44B1B59E-3185-4C9C-BBC0-891F63B5A2A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44B1B59E-3185-4C9C-BBC0-891F63B5A2A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
